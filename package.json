@@ -1,0 +1,31 @@
+{
+  "name": "lint-create-cli",
+  "version": "0.1.0",
+  "description": "A cli for creating eslint && commit ",
+  "author": "",
+  "bin": {
+    "lint-create-cli": "./lib/init.js"
+  },
+  "scripts": {
+    "build": "babel bin -d lib"
+  },
+  "keywords": [
+    "eslint",
+    "prettier",
+    "commit"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.1.0",
+    "detect-indent": "^6.1.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "lodash": "^4.17.21",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8"
+  }
+}
